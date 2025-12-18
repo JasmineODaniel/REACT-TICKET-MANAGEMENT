@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
-import './LandingPage.css';
+import './LandingPage.css'; 
 
 const LandingPage = () => (
   <div className="landing-page">
@@ -60,3 +60,4 @@ const LandingPage = () => (
 );
 
 export default LandingPage;
+
