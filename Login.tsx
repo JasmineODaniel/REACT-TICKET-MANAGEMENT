@@ -6,7 +6,7 @@ import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { showToast } from '@/components/Toast';
 
-interface User {
+interface User { 
   name: string;
   email: string;
   password: string;
@@ -165,5 +165,6 @@ const Login = () => {
     </div>
   );
 };
+
 
 export default Login;
