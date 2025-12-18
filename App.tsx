@@ -9,7 +9,7 @@ import Dashboard from './pages/Dashboard';
 import TicketManagement from './pages/TicketManagement';
 
 const queryClient = new QueryClient();
-
+ 
 // Protected Route Component
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const token = localStorage.getItem('ticketapp_session');
